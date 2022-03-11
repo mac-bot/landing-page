@@ -15,6 +15,15 @@ body {
     border: none;
 }
 
+.footer {
+    text-align: center;
+    padding: 52px;
+    background-color: #1f2937;
+    color: #c3c5c9;
+    font-size: 18px;
+    
+}
+
 .header-left {
     display: flex;
     align-items: center;
@@ -78,15 +87,19 @@ p {
     padding: 12px 0px;
 }
 
-.sign-up-button {
+.sign-up-button,.sign-up-button-two {
     font-size: 18px;
     font-weight: 540;
     color: #f9faf8;
     background-color: #3882f6;
-    border: none;
+    border-style: solid;
+    border-color: #e5e7eb;
     border-radius: 8px;
     padding: 8px 32px;
-    
+}
+
+.sign-up-button {
+    border: none;
 }
 
 .mallard {
@@ -142,4 +155,37 @@ p {
     font-size: 24px;
     font-weight: bold;
     font-style: normal;
+}
+
+.recruitment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.pressure-box {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;
+    width: 1000px;
+    padding: 45px;
+    border-radius: 8px;
+
+}
+
+.pressure-command {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.pressure-txt {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    font-weight: 200;
 }
