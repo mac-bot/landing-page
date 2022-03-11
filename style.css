@@ -50,7 +50,7 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 140px;
-    padding: 130px 165px;
+    padding: 110px 165px;
     background-color: #1f2937;
 }
 
@@ -64,6 +64,7 @@ a {
 
 h1 {
     font-size: 48px;
+    font-weight: bolder;
     color: #f9faf8;
     margin: 0;
     padding: 0;
@@ -89,4 +90,38 @@ p {
 
 .mallard {
     width: 320px;
+}
+
+.info {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 52px;
+}
+
+.examples {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 52px;
+}
+
+.thumb {
+    width: 240px;
+}
+
+.thumb-nail {
+    width: 200px;
+    border-radius: 24px;
+    margin-bottom: 12px;
+}
+
+.thumb-txt {
+    color:#828488
 }
