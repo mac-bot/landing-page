@@ -96,6 +96,11 @@ p {
     border-color: #e5e7eb;
     border-radius: 8px;
     padding: 8px 32px;
+    transition-duration: .04s;
+}
+
+button:hover {
+    background-color: #2554a0;
 }
 
 .sign-up-button {
