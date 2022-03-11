@@ -10,8 +10,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 45px;
-background-color: #1f2937;
+    padding: 8px 165px;
+    background-color: #1f2937;
 }
 
 .header-left {
@@ -28,7 +28,7 @@ background-color: #1f2937;
 }
 
 .logo-txt {
-    color: #e5e7eb;
+    color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
 }
@@ -43,4 +43,50 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 140px;
+    padding: 130px 165px;
+    background-color: #1f2937;
+}
+
+.welcome-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 440px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+    padding: 12px 0px;
+}
+
+.sign-up-button {
+    font-size: 18px;
+    font-weight: 540;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+    
+}
+
+.mallard {
+    width: 320px;
 }
