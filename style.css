@@ -12,6 +12,7 @@ body {
     align-items: center;
     padding: 8px 165px;
     background-color: #1f2937;
+    border: none;
 }
 
 .header-left {
@@ -124,4 +125,21 @@ p {
 
 .thumb-txt {
     color:#828488
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 220;
+    font-style: italic;
+    padding: 120px 200px;
+}
+
+.david {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
 }
